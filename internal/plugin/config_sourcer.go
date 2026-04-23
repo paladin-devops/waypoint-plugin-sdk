@@ -12,11 +12,11 @@ import (
 	"google.golang.org/grpc/status"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	"github.com/hashicorp/waypoint-plugin-sdk/docs"
-	"github.com/hashicorp/waypoint-plugin-sdk/internal/funcspec"
-	"github.com/hashicorp/waypoint-plugin-sdk/internal/pluginargs"
-	pb "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
+	"github.com/paladin-devops/waypoint-plugin-sdk/docs"
+	"github.com/paladin-devops/waypoint-plugin-sdk/internal/funcspec"
+	"github.com/paladin-devops/waypoint-plugin-sdk/internal/pluginargs"
+	pb "github.com/paladin-devops/waypoint-plugin-sdk/proto/gen"
 )
 
 // ConfigSourcerPlugin implements plugin.Plugin (specifically GRPCPlugin) for

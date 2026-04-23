@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/internal/funcspec"
-	"github.com/hashicorp/waypoint-plugin-sdk/internal/testproto"
-	pb "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/internal/funcspec"
+	"github.com/paladin-devops/waypoint-plugin-sdk/internal/testproto"
+	pb "github.com/paladin-devops/waypoint-plugin-sdk/proto/gen"
 )
 
 func TestMapperClient(t *testing.T) {

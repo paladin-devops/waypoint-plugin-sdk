@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	docs "github.com/hashicorp/waypoint-plugin-sdk/docs"
+	docs "github.com/paladin-devops/waypoint-plugin-sdk/docs"
 	mock "github.com/stretchr/testify/mock"
 )
 

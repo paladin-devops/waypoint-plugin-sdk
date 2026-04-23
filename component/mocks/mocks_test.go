@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
 )
 
 func TestForType(t *testing.T) {

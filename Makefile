@@ -1,4 +1,4 @@
-PROTOC_VERSION="3.17.3"
+PROTOC_VERSION="3.21.12"
 
 .PHONY: versioncheck
 versioncheck: # check protoc version

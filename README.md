@@ -17,7 +17,7 @@ callbacks for Waypoint during the various parts of the lifecycle.
 package main
 
 import (
-  sdk "github.com/hashicorp/waypoint-plugin-sdk"
+  sdk "github.com/paladin-devops/waypoint-plugin-sdk"
 )
 
 func main() {
@@ -42,7 +42,7 @@ import (
   "context"
   "fmt"
 
-  "github.com/hashicorp/waypoint-plugin-sdk/terminal"
+  "github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 )
 
 type Builder struct {}
@@ -71,7 +71,7 @@ syntax = "proto3";
 
 package platform;
 
-option go_package = "github.com/hashicorp/waypoint-plugin-examples/template/builder";
+option go_package = "github.com/paladin-devops/waypoint-plugin-examples/template/builder";
 
 message Binary {
   string location = 1;

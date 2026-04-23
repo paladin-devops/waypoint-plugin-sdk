@@ -15,9 +15,9 @@ import (
 	statuspkg "google.golang.org/grpc/status"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/internal/pkg/pty"
-	pb "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint-plugin-sdk/internal/pkg/pty"
+	pb "github.com/paladin-devops/waypoint-plugin-sdk/proto/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 )
 
 // UIPlugin implements plugin.Plugin (specifically GRPCPlugin) for

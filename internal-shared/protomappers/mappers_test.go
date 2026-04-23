@@ -6,8 +6,8 @@ import (
 	"github.com/hashicorp/go-argmapper"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	pb "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
+	pb "github.com/paladin-devops/waypoint-plugin-sdk/proto/gen"
 )
 
 func TestMappers(t *testing.T) {

@@ -16,9 +16,9 @@ import (
 	"google.golang.org/protobuf/reflect/protoregistry"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/internal-shared/protomappers"
-	"github.com/hashicorp/waypoint-plugin-sdk/internal/funcspec"
-	pb "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/internal-shared/protomappers"
+	"github.com/paladin-devops/waypoint-plugin-sdk/internal/funcspec"
+	pb "github.com/paladin-devops/waypoint-plugin-sdk/proto/gen"
 )
 
 // MapperPlugin implements plugin.Plugin (specifically GRPCPlugin) for

@@ -9,8 +9,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	pb "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
+	pb "github.com/paladin-devops/waypoint-plugin-sdk/proto/gen"
 )
 
 // UIPlugin implements plugin.Plugin (specifically GRPCPlugin) for

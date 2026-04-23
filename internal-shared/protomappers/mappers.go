@@ -10,14 +10,14 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	"github.com/hashicorp/waypoint-plugin-sdk/datadir"
-	pluginexec "github.com/hashicorp/waypoint-plugin-sdk/internal/plugin/exec"
-	pluginlogs "github.com/hashicorp/waypoint-plugin-sdk/internal/plugin/logs"
-	pluginterminal "github.com/hashicorp/waypoint-plugin-sdk/internal/plugin/terminal"
-	"github.com/hashicorp/waypoint-plugin-sdk/internal/pluginargs"
-	pb "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
+	"github.com/paladin-devops/waypoint-plugin-sdk/datadir"
+	pluginexec "github.com/paladin-devops/waypoint-plugin-sdk/internal/plugin/exec"
+	pluginlogs "github.com/paladin-devops/waypoint-plugin-sdk/internal/plugin/logs"
+	pluginterminal "github.com/paladin-devops/waypoint-plugin-sdk/internal/plugin/terminal"
+	"github.com/paladin-devops/waypoint-plugin-sdk/internal/pluginargs"
+	pb "github.com/paladin-devops/waypoint-plugin-sdk/proto/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 )
 
 // All is the list of all mappers as raw function pointers.

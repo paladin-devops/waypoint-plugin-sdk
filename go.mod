@@ -1,4 +1,4 @@
-module github.com/hashicorp/waypoint-plugin-sdk
+module github.com/paladin-devops/waypoint-plugin-sdk
 
 go 1.19
 

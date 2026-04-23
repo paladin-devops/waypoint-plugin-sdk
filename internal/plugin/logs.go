@@ -6,10 +6,10 @@ import (
 	"github.com/hashicorp/go-argmapper"
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	"github.com/hashicorp/waypoint-plugin-sdk/internal/funcspec"
-	"github.com/hashicorp/waypoint-plugin-sdk/internal/pluginargs"
-	proto "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
+	"github.com/paladin-devops/waypoint-plugin-sdk/internal/funcspec"
+	"github.com/paladin-devops/waypoint-plugin-sdk/internal/pluginargs"
+	proto "github.com/paladin-devops/waypoint-plugin-sdk/proto/gen"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 
